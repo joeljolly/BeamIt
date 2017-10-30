@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iodroid.beamit.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="My Coordinates" />
+
+    <TextView
+        android:id="@+id/lattin"
+        android:layout_width="match_parent"
+        android:layout_height="92dp" />
+
+    <TextView
+        android:id="@+id/longin"
+        android:layout_width="match_parent"
+        android:layout_height="95dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Received Coordinates"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lattout"
+        android:layout_width="match_parent"
+        android:layout_height="97dp" />
+
+    <TextView
+        android:id="@+id/longout"
+        android:layout_width="match_parent"
+        android:layout_height="153dp" />
+    </LinearLayout>

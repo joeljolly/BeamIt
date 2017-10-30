@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">beamit</string>
+    <string name="title_activity_map">mapActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
